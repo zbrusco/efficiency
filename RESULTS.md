@@ -9,7 +9,7 @@
 
 ## Data Structures Benchmarked
 
-- Hash Table (chaining + open addressing)
+- Hash Table (chaining)
 - Binary Search Tree (BST)
 - AVL Tree
 - Trie
@@ -57,4 +57,5 @@
 - Trie: excellent search but impractical memory usage at scale
 - AVL: balanced but slower insertions
 - SLL/DLL: good for small datasets, poor scaling
+
 
