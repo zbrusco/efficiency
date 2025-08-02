@@ -18,10 +18,10 @@
 
 ## Benchmark Tasks
 
-- **Insertion**
-- **Search**
-- **Deletion**
-  Each tested separately using the dual-dataset approach.
+- **Insertion** — load entire dataset into the structure
+- **Search + Deletion** — lookup elements from search dataset and delete them upon finding
+- **Unload** — free all remaining nodes and memory
+  Each task was benchmarked separately using the dual-dataset approach..
 
 ## Observations
 
@@ -57,3 +57,4 @@
 - Trie: excellent search but impractical memory usage at scale
 - AVL: balanced but slower insertions
 - SLL/DLL: good for small datasets, poor scaling
+
