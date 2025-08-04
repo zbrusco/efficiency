@@ -47,22 +47,33 @@ This project demonstrates how theoretical time complexities translate (or break 
 
 _where m = length of key, n = number of elements_
 
-## Building and Running
+## Setup
 
-```bash
-# Compile the project
-make efficiency
+1. Clone the repo:
 
-# Run benchmarks
-# Structure codes:
-#   h   - Hash Table
-#   bst - Binary Search Tree
-#   avl - AVL Tree
-#   t   - Trie
-#   sll - Singly Linked List
-#   dll - Doubly Linked List
-./efficiency dataset/random.txt search/random.txt [structure]
-```
+   ```bash
+   git clone https://github.com/zbrusco/efficiency.git
+   cd efficiency 
+   ```
+
+2. Compile the project:
+
+   ```bash
+   make efficiency
+   ```
+
+3. Run benchmarks:
+
+   ```bash
+    # Structure codes:
+    #   h   - Hash Table
+    #   bst - Binary Search Tree
+    #   avl - AVL Tree
+    #   t   - Trie
+    #   sll - Singly Linked List
+    #   dll - Doubly Linked List
+    ./efficiency dataset/random.txt search/random.txt [structure]
+   ```
 
 The benchmark runs in three phases: insertion (load full dataset), search+delete (lookup and remove), and unload (free all remaining nodes).
 
@@ -99,3 +110,4 @@ sort -nr search/random.txt > search/reversed.txt
 ├── search/           # Search datasets (query data)
 └── results.md      # Benchmark results and analysis
 ```
+
