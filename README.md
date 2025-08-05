@@ -47,13 +47,15 @@ This project demonstrates how theoretical time complexities translate (or break 
 
 _where m = length of key, n = number of elements_
 
+### View Detailed Results on _[RESULTS.MD](https://github.com/zbrusco/efficiency/blob/main/RESULTS.md)_
+
 ## Setup
 
 1. Clone the repo:
 
    ```bash
    git clone https://github.com/zbrusco/efficiency.git
-   cd efficiency 
+   cd efficiency
    ```
 
 2. Compile the project:
@@ -110,4 +112,3 @@ sort -nr search/random.txt > search/reversed.txt
 ├── search/           # Search datasets (query data)
 └── results.md      # Benchmark results and analysis
 ```
-
